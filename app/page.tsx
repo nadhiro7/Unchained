@@ -1,101 +1,52 @@
+import Banner from "@/components/shared/Banner";
+import CaseStudy from "@/components/shared/CaseStudy";
+import Excited from "@/components/shared/Excited";
+import Footer from "@/components/shared/Footer";
+import HeroSection from "@/components/shared/HeroSection";
+import Partner from "@/components/shared/Partner";
+import Partners2 from "@/components/shared/Partners2";
+import WorkProcess from "@/components/shared/WorkProcess";
+import Wwb from "@/components/shared/Wwb";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <div className="text-white  mxWidth">
+      <div className="container mxWidth ">
+        <HeroSection>
+          <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
+            <div className=" flex  flex-col w-full items-center justify-center" >
+              <div className="overflow-hidden h-fit">
+                <div className="translateTopScroll glassmorphism text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
+                  Technology
+                </div>
+              </div>
+              <div className="overflow-hidden h-fit text-h3 sm:text-display font-Satoshi-Bold uppercase"><p className="translateTopScroll">We are</p></div>
+              <div className="overflow-hidden h-fit text-h3 sm:text-display font-Satoshi-Bold uppercase"><p className="translateTopScroll flex flex-wrap justify-center items-center"><span className="sm:hidden block"><img src="/assets/22.svg" alt="11img" /></span> digital<span className="sm:hidden block"><img src="/assets/11.svg" alt="12img" /></span>  <span className="hidden sm:block"><img src="/assets/2.svg" alt="2img" /></span> products</p></div>
+              <div className="overflow-hidden h-fit text-h3 sm:text-display font-Satoshi-Bold uppercase"><p className=" translateTopScroll flex justify-center items-center"><span className="hidden sm:block"><img src="/assets/1.svg" alt="1img" /></span> creators<span className="text-primary-500">.</span></p></div>
+            </div>
+            <div className="overflow-hidden h-fit">
+              <p className="translateTopScroll text-center font-Satoshi-Regular text-body-regular opacity-60">Whatever your unique idea or needs, we’ve got the tools and know how to build your custom solution from discovery to deployment.</p>
+            </div>
+            <div className="w-full xs:w-fit  overflow-hidden  flex flex-col lg:flex-row gap-3 items-center justify-center">
+              <button className="btn translateRightScroll shadow-btn transition-all transform duration-700 bg-primary-500 w-full xs:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500">Book a meeting</button>
+              <button className="btn translateLeftScroll shadow-btn transition-all transform duration-700 bg-transparent w-full xs:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500">Learn more</button>
+            </div>
+          </div>
+          <></>
+        </HeroSection>
+        <Partner />
+      </div>
+      <div className="h-[243px] relative overflow-hidden">
+        <Banner rotateLeft={true} />
+        <Banner rotateRight={true} />
+      </div>
+      <Wwb />
+      <CaseStudy />
+      <WorkProcess />
+      <Partners2 />
+      <Excited />
+      <Footer />
     </div>
   );
 }
