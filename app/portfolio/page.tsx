@@ -9,7 +9,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth">
+        <div className="text-white  mxWidth overflow-hidden">
             <div className="container mxWidth ">
                 <HeroSection>
                     <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
