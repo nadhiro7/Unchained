@@ -12,8 +12,8 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth overflow-hidden">
-            <div className="container mxWidth ">
+        <div className="text-white  mxWidth">
+            <div className="container mxWidth overflow-hidden">
                 <HeroSection>
                     <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
