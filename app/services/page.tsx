@@ -15,7 +15,7 @@ function page() {
         <div className="text-white  mxWidth">
             <div className="container mxWidth overflow-hidden">
                 <HeroSection>
-                    <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
+                    <div className="flex items-center flex-col lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
                             <div className="overflow-hidden h-fit">
                                 <div className="glassmorphism text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
