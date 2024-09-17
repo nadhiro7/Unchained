@@ -25,7 +25,7 @@ function page() {
                             <div className="overflow-hidden h-fit text-h3 sm:text-h1 font-Satoshi-Bold uppercase text-center"> Our Services<span className="text-primary-500">.</span></div>
                         </div>
                         <div className="overflow-hidden h-fit">
-                            <p className="text-center font-Satoshi-Regular text-body-regular opacity-60">Whether you looking for large-scale custom software development, pro UI/UX design, or 24/7 server support, we have the team to meet your specific needs.</p>
+                            <p className="text-center font-Satoshi-Regular text-body-regular opacity-60">Whether you looking for large-scale custom software development, pro UI/UX design,<br /> or 24/7 server support, we have the team to meet your specific needs.</p>
                         </div>
                         <div className="w-full  flex  lg:flex-row gap-3 flex-wrap  items-center justify-center duration-700 max-w-[570px]">
                             {categories.map((category, index) => (
