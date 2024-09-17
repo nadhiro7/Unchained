@@ -14,7 +14,7 @@ function CaseStudy() {
                             </div>
                         </div>
                         <div className="h-fit text-h4  block sm:text-h2 font-Satoshi-Bold uppercase">
-                            <p className="text-center">Explore <br /> What We Do<span className="text-primary-500">.</span></p>
+                            <p className="text-center">Explore <br className='block md:hidden'/> What We Do<span className="text-primary-500">.</span></p>
                         </div>
                     </div>
                 </div>
