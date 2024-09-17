@@ -1,3 +1,6 @@
+import { image } from "framer-motion/client"
+import { features } from "process"
+
 export const navItem = [
     {
         name: 'Home',
@@ -110,4 +113,134 @@ export const team = [
         role: 'Sr. Frontend Developer',
         image: '/assets/person4.png'
     },
+]
+
+export const feature = [
+    {
+        why: '+26 years experience',
+        description: 'We have been in the industry for 26 years and have successfuly launched over +800 websites and +150 mobile applicatons.'
+    },
+    {
+        why: 'Creative team',
+        description: 'We the best creative team that bring your ideas to life.'
+    },
+    {
+        why: 'We’re helpful',
+        description: 'We love to help clients to achieve their online goals.'
+    },
+
+]
+
+export const portfolios = [
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case1.png'
+    },
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case2.png'
+    },
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case3.png'
+    },
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case4.png'
+    },
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case1.png'
+    },
+    {
+        title: 'Oueco',
+        category: 'Mobile App',
+        description: 'Elevating Well-Being: LyfeMD Inc. Delivers Holistic Solutions for Managing Digestive Diseases and Enhancing Happiness',
+        image: '/assets/case6.png'
+    },
+]
+
+export const services = [
+    {
+        title: 'Web APPLICATIONS',
+        description: 'We create custom web applications as new systems, or as a backend to existing applications. We can build your application from scratch, or rebuild a previous application into a modern web-based system.',
+        image: '/assets/s1.png'
+    },
+    {
+        title: 'Mobile Applications',
+        description: 'We develop custom mobile apps as experts in both native and hybrid code for iOS and Android. Our senior-level mobile developers have created hundreds of mobile solutions for startups to large corporations.',
+        image: '/assets/s2.png'
+    },
+    {
+        title: 'Business Platforms',
+        description: 'Managing your business with a custom application allows you to store and track only the data that matters to your company. Our team will drill down on every detail of your business and build a custom system to your exact specifications.',
+        image: '/assets/s3.png'
+    },
+]
+
+export const blogs = [
+    {
+        category: 'Personal growth',
+        title: '10 Simple Practices That Will Help You Get 1% Better Every Day',
+        description: 'This is another form of “new and improved.” It communicates that the product is the latest model or the hottest on the market.',
+        image: '/assets/blog1.png',
+        date: 'july 20, 2021',
+        author: 'John Doe'
+    },
+    {
+        category: 'Personal growth',
+        title: '10 Simple Practices That Will Help You Get 1% Better Every Day',
+        description: 'This is another form of “new and improved.” It communicates that the product is the latest model or the hottest on the market.',
+        image: '/assets/blog2.png',
+        date: 'july 20, 2021',
+        author: 'John Doe'
+    },
+    {
+        category: 'Personal growth',
+        title: '10 Simple Practices That Will Help You Get 1% Better Every Day',
+        description: 'This is another form of “new and improved.” It communicates that the product is the latest model or the hottest on the market.',
+        image: '/assets/blog3.png',
+        date: 'july 20, 2021',
+        author: 'John Doe'
+    },
+    {
+        category: 'Personal growth',
+        title: '10 Simple Practices That Will Help You Get 1% Better Every Day',
+        description: 'This is another form of “new and improved.” It communicates that the product is the latest model or the hottest on the market.',
+        image: '/assets/blog4.png',
+        date: 'july 20, 2021',
+        author: 'John Doe'
+    }
+]
+export const recentPosts = [
+    {
+        title: '10 Simple Practices That Will Help You Get 1% Better Every ...',
+        image: '/assets/rp.png',
+    },
+    {
+        title: '10 Simple Practices That Will Help You Get 1% Better Every ...',
+        image: '/assets/rp2.png',
+    },
+    {
+        title: '10 Simple Practices That Will Help You Get 1% Better Every ...',
+        image: '/assets/rp3.png',
+    },
+    {
+        title: '10 Simple Practices That Will Help You Get 1% Better Every ...',
+        image: '/assets/rp4.png',
+    }
+]
+
+export const tags = [
+    'Business', 'Software', 'Applications', 'Mobile', 'Web Applications', 'UI/UX Design', 'Design'
 ]

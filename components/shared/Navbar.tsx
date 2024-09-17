@@ -3,12 +3,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { navItem } from '@/consts/const'
+import { usePathname } from 'next/navigation'
 
 function Navbar() {
     const [showMenu, setShowMenu] = React.useState(false)
     const handleShowMenu = () => {
         setShowMenu(!showMenu)
     }
+    const pathname = usePathname()
     return (
         <nav className={`container mxWidth z-10 overflow-hidden transition-all transform duration-1000 text-white navbar  w-screen pt-4 pb-4 ${showMenu ? 'navbarMobile h-screen flex flex-col justify-between ' : 'h-[80px]'}`}>
             <div className='flex justify-between items-center w-full'>
@@ -18,7 +20,7 @@ function Navbar() {
                 <div className='menu_desktop hidden lg:flex'>
                     <ul className='flex space-x-8'>
                         {navItem.map((item, index) => (
-                            <li key={index} className='hover:text-primary-500 text-small font-Satoshi-Regular duration-500'>
+                            <li key={index} className={`${pathname == item.link ? 'text-primary-500' : ''} hover:text-primary-500 text-small font-Satoshi-Regular duration-50`}>
                                 <Link href={item.link}>
                                     {item.name}
                                 </Link>
@@ -37,7 +39,7 @@ function Navbar() {
             <div className={`mt-3 flex lg:hidden transition-all transform flex-col justify-center items-center `}>
                 <ul className='flex flex-col gap-16 items-center '>
                     {navItem.map((item, index) => (
-                        <li key={index} className='hover:text-primary-500 text-h4 font-Satoshi-Bold duration-500'>
+                        <li key={index} className={`${pathname == item.link ? 'text-primary-500' : ''} hover:text-primary-500 text-h4 font-Satoshi-Bold duration-500`}>
                             <Link href={item.link}>
                                 {item.name}
                             </Link>

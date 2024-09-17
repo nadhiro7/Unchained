@@ -2,6 +2,7 @@ import Excited from '@/components/shared/Excited'
 import Footer from '@/components/shared/Footer'
 import HeroSection from '@/components/shared/HeroSection'
 import MeetTeam from '@/components/shared/MeetTeam'
+import WhyChooseUs from '@/components/shared/WhyChooseUs'
 import React from 'react'
 
 function page() {
@@ -28,7 +29,7 @@ function page() {
                     </div>
                 </HeroSection>
                 <div className="h-[440px] lg:h-[424px] xl:h-[500px]  cat2 overflow-hidden ">
-                    <div className='flex gap-5 w-full flex-wrap h-[420px] lg:h-[470px] xl:h-[570px] overflow-y-scroll cat-imgs2'>
+                    <div className='flex gap-5 w-full flex-wrap h-[420px] lg:h-[470px] xl:h-[570px] justify-center overflow-y-scroll cat-imgs2'>
                         <img src='/assets/cat5.png' alt='cat5' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[340px] xl:h-[340px] rounded-[24px]' />
                         <img src='/assets/cat2.png' alt='cat2' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[340px] xl:h-[340px] rounded-[24px]' />
                         <img src='/assets/cat33.png' alt='cat3' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[340px] xl:h-[340px] rounded-[24px]' />
@@ -41,6 +42,7 @@ function page() {
                 </div>
             </div>
             <MeetTeam />
+            <WhyChooseUs />
             <Excited />
             <Footer />
         </div>

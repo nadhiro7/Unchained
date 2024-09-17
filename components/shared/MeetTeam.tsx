@@ -19,7 +19,7 @@ function MeetTeam() {
                 </div>
             </div>
             <div className='w-full overflow-x-scroll cat-imgs2 '>
-                <div className='flex w-max gap-5'>
+                <div className='flex w-max gap-5 lg:w-full'>
                     {/* <!-- Person Card --> */}
                     {team.map((person, index) => (
                         <PersonCard key={index} name={person.name} role={person.role} image={person.image} />
