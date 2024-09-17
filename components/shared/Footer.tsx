@@ -7,9 +7,9 @@ function Footer() {
     return (
         <footer className='container mxWidth py-12 flex flex-col gap-6'>
             <div className='flex sm:justify-between justify-center flex-col sm:flex-row gap-8 px-5 sm:px-0 items-center w-full'>
-                <div className='logo'>
+                <Link className='logo' href={'/'}>
                     <img src='/assets//logo.svg' alt='logo' className='w-[99px] lg:w-[151px] h-[20px] lg:h-[32px] ' />
-                </div>
+                </Link>
                 <div className='menu_desktop flex'>
                     <ul className='flex gap-9 flex-wrap justify-center'>
                         {navItem.map((item, index) => (

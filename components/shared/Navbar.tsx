@@ -14,9 +14,9 @@ function Navbar() {
     return (
         <nav className={`container mxWidth z-10 overflow-hidden transition-all transform duration-1000 text-white navbar  w-screen pt-4 pb-4 ${showMenu ? 'navbarMobile h-screen flex flex-col justify-between ' : 'h-[80px]'}`}>
             <div className='flex justify-between items-center w-full'>
-                <div className='logo'>
+                <Link className='logo' href={'/'}>
                     <img src='/assets//logo.svg' alt='logo' className='w-[99px] lg:w-[151px] h-[20px] lg:h-[32px] ' />
-                </div>
+                </Link>
                 <div className='menu_desktop hidden lg:flex'>
                     <ul className='flex space-x-8'>
                         {navItem.map((item, index) => (
