@@ -26,16 +26,24 @@ function Content() {
                 </p>
                 <ul className='flex flex-col gap-5 ulList'>
                     <li className='text-body-regular font-Satoshi-Regular text-white opacity-70'>
-                        Polaroid artisan tattooed, kale chips cloud bread crucifix yuccie irony.
+                        <div className='pl-4'>
+                            Polaroid artisan tattooed, kale chips cloud bread crucifix yuccie irony.
+                        </div>
                     </li>
                     <li className='text-body-regular font-Satoshi-Regular text-white opacity-70'>
-                        Fashion axe pabst microdosing, locavore cornhole craft beer authentic hoodie.
+                        <div className='pl-4'>
+                            Fashion axe pabst microdosing, locavore cornhole craft beer authentic hoodie.
+                        </div>
                     </li>
                     <li className='text-body-regular font-Satoshi-Regular text-white opacity-70'>
-                        Glossier offal brooklyn typewriter VHS cred gentrify.
+                        <div className='pl-4'>
+                            Glossier offal brooklyn typewriter VHS cred gentrify.
+                        </div>
                     </li>
                     <li className='text-body-regular font-Satoshi-Regular text-white opacity-70'>
-                        Direct trade green juice portland crucifix.
+                        <div className='pl-4'>
+                            Direct trade green juice portland crucifix.
+                        </div>
                     </li>
                 </ul>
             </div>

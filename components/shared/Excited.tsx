@@ -4,7 +4,7 @@ function Excited() {
     return (
         <section className='container mxWidth py-20'>
             <div>
-                <div className="flex flex-col border-[#72717133] border-[1px] border-solid lg:flex-row lg:justify-between w-full lg:w-[944px] xl:w-[1200px] overflow-hidden hover:h-max duration-700 transform lg:mx-0 p-6 rounded-[32px] gap-3 glassmorphism">
+                <div className="flex flex-col border-[#72717133] border-[1px] border-solid lg:flex-row lg:justify-between w-full 2xl:w-[1200px] overflow-hidden hover:h-max duration-700 transform lg:mx-0 p-6 rounded-[32px] gap-3 glassmorphism">
                     <button className="text-body-medium btn duration-700 lg:order-2 border-[#FFFFFF33] flex  items-center justify-center font-Satoshi-Medium h-[88px] w-[88px] text-white border-[1px] border-solid rounded-[44px] py-2 px-4 bg-primary-500">
                         <div className="h-[88px] flex items-center">
                             <img src="/assets/sahem3.svg" alt="0" />

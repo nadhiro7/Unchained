@@ -4,10 +4,9 @@ import React from 'react'
 function WhyChooseUs() {
     return (
         <section className='container relative mxWidth flex-col flex justify-center items-center gap-12 py-[120px]'>
-            <div className='gridDesk absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>
+            <div className='gridDesk absolute top-[50%] bg-[center] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>
             </div>
-            <div className='lg:hidden gridMobile absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%]  lg:h-[80%]'>
-            </div>
+
             <div className="flex items-center flex-col mx-[19px] w-full lg:w-[723px] lg:mx-0  gap-6 ">
                 <div className=" flex  flex-col w-full items-center justify-center" >
                     <div className="overflow-hidden h-fit">

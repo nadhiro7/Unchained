@@ -15,7 +15,7 @@ module.exports = {
       padding: {
         DEFAULT: '20px',
         lg: '40px',
-        xl: '40px',
+        xl: '120px',
         '2xl': '120px',
       },
 
@@ -227,7 +227,8 @@ module.exports = {
       screens: {
         xs: "428px",
         lg: "1024px",
-        "2xl": "1440px",
+        xl: "1440px",
+        "2xl": "1728px"
       },
       keyframes: {
         "accordion-down": {

@@ -16,8 +16,8 @@ function page() {
     return (
         <div className="text-white  mxWidth overflow-hidden">
             <div className="container mxWidth ">
-                <HeroSection>
-                    <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
+                <HeroSection height={'h-[700px]'} style={''}>
+                    <div className="flex items-center flex-col w-full lg:w-[723px] ] mt-[256px] lg:mt-[256px] 2xl:mt-[260px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
                             <div className="overflow-hidden h-fit">
                                 <div className="glassmorphism text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
@@ -32,7 +32,7 @@ function page() {
                     </div>
                 </HeroSection>
             </div>
-            <div className='relative overflow-hidden flex justify-center items-center flex-col gap-4 py-10'>
+            <div className='relative overflow-hidden flex justify-center items-center flex-col gap-4 py-10 shdw2'>
                 <Banner />
             </div>
             <Case />

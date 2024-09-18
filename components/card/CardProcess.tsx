@@ -9,7 +9,8 @@ function CardProcess(
 ) {
     return (
         <div>
-            <div className="flex flex-col w-full sm:w-[462px] h-[372px] overflow-hidden hover:h-max duration-700 transform lg:mx-0 p-6 rounded-[32px] gap-3  process-card glassmorphism">
+            <div className="flex flex-col w-full 2xl:w-[462px] lg:w-[462px] xl:w-[385px] 2xl:h-[420px] xl:h-[460px] lg:h-[372px] relative overflow-hidden hover:h-fit duration-700 transform lg:mx-0 p-6 rounded-[32px] gap-3  process-card ">
+
                 <div className="text-body-medium border-[#FFFFFF33] flex  items-center justify-center font-Satoshi-Medium h-[64px] w-[64px] text-white border-[1px] border-solid rounded-[32px] py-2 px-4 bg-primary-500">
                     <div className="h-[64px] flex  items-center">
                         0{index}
@@ -23,6 +24,7 @@ function CardProcess(
                         <p className="">{description}</p>
                     </div>
                 </div>
+                <div className='process-highlight absolute 2xl:w-[304px] top-[0]' />
             </div>
         </div>
     )

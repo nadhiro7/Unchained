@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <div className="text-white  mxWidth" ref={homeRef}>
       <div className="container mxWidth overflow-hidden">
-        <HeroSection>
-          <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
+        <HeroSection height={"h-screen"} style={"bg-[center]"}>
+          <div className="flex items-center flex-col lg:w-[723px] ] mt-[246px] lg:mt-[356px] 2xl:mt-[360px] lg:mx-0  gap-6 ">
             <div className=" flex  flex-col w-full items-center justify-center" >
               <div className="overflow-hidden h-fit">
                 <div className={`${isScroll ? 'translateTopScroll' : ''} glassmorphism duration-[2s] translate-y-full text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit`}>
@@ -47,9 +47,9 @@ export default function Home() {
             <div className="overflow-hidden h-fit">
               <p className={`${isScroll ? 'translateTopScroll' : ''} duration-[2s] translate-y-full text-center font-Satoshi-Regular text-body-regular opacity-60`}>Whatever your unique idea or needs, we’ve got the tools and know how to build your custom solution from discovery to deployment.</p>
             </div>
-            <div className="w-full xs:w-fit  overflow-hidden  flex flex-col lg:flex-row gap-3 items-center justify-center">
-              <button className={`${isScroll ? 'translateRightScroll' : ''} duration-[2s] translate-x-[-101%] btn  shadow-btn transition-all transform duration-700 bg-primary-500 w-full xs:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500`}>Book a meeting</button>
-              <button className={`${isScroll ? 'translateLeftScroll' : ''} duration-[2s] translate-x-[101%] btn  shadow-btn transition-all transform duration-700 bg-transparent w-full xs:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500`}>Learn more</button>
+            <div className="w-full lg:w-fit  overflow-hidden  flex flex-col lg:flex-row gap-3 items-center justify-center">
+              <button className={`${isScroll ? 'translateRightScroll' : ''} duration-[2s] translate-x-[-101%] btn  shadow-btn transition-all transform  bg-primary-500 w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500`}>Book a meeting</button>
+              <button className={`${isScroll ? 'translateLeftScroll' : ''} duration-[2s] translate-x-[101%] btn  shadow-btn transition-all transform  bg-transparent w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500`}>Learn more</button>
             </div>
           </div>
           <></>

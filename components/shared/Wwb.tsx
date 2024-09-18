@@ -5,10 +5,10 @@ import { categories } from '@/consts/const'
 function Wwb() {
     return (
         <div>
-            <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
-                <div className='gridDesk absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>
+            <div className='w-full h-max  relative  overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
+                <div className='gridDesk absolute top-[-100px]  translate-x-[-50%] left-[50%]  2xl:h-[825px] lg:h-[80%]'>
                 </div>
-                <div className='lg:hidden gridMobile absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%]  lg:h-[80%]'>
+                <div className='lg:hidden gridMobile absolute top-[-100px] translate-x-[-50%] left-[50%]   lg:h-[80%]'>
                 </div>
                 <div className="flex items-center flex-col  lg:mx-0  gap-6 ">
                     <div className=" flex  flex-col w-full items-center justify-center" >
@@ -25,9 +25,9 @@ function Wwb() {
                     <div className="h-fit">
                         <p className=" text-center font-Satoshi-Regular text-body-regular opacity-60">Revolutionize your business with our mobile app and software development expertise, delivering <br /> innovative solutions to elevate your brand and boost your bottom line.</p>
                     </div>
-                    <div className="w-full  flex flex-col lg:flex-row gap-3 flex-wrap  items-center justify-center duration-700 max-w-[570px]">
+                    <div className="w-full  flex  lg:flex-row gap-3 flex-wrap  items-center justify-center duration-700 max-w-[570px]">
                         {categories.map((category, index) => (
-                            <div key={index} className="cat text-body-regular font-Satoshi-Regular btn hover:bg-primary-500 duration-700 text-gray-200 hover:text-white  border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-3 w-max flex gap-2 cursor-pointer">
+                            <div key={index} className="cat text-body-regular font-Satoshi-Regular btn hover:bg-primary-500 duration-700 text-gray-200 hover:text-white  border-[1px] border-solid border-[#72717133] rounded-[32px] py-3 px-2 w-max flex gap-2 cursor-pointer">
                                 {category}
                                 <img className='cat-img duration-700' src={`/assets/sahem.svg`} alt={`${category}`} />
                             </div>
@@ -36,7 +36,7 @@ function Wwb() {
                     </div>
                 </div>
                 <div className='overflow-x-scroll overflow-hidden relative cat-imgs w-full'>
-                    <div className='flex gap-5 overflow-x-scroll  cat-imgs2'>
+                    <div className='flex gap-5 overflow-x-scroll justify-center cat-imgs2'>
                         <img src='/assets/cat1.png' alt='cat1' className='w-[340px] h-[340px] rounded-[24px]' />
                         <img src='/assets/cat2.png' alt='cat2' className='w-[340px] h-[340px] rounded-[24px]' />
                         <img src='/assets/cat3.png' alt='cat3' className='w-[340px] h-[340px] rounded-[24px]' />

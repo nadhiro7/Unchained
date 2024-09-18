@@ -16,7 +16,7 @@ function Case() {
                     </p>
                     <div className="w-full  flex flex-row gap-3 flex-wrap duration-700">
                         {categories.map((category, index) => (
-                            <div key={index} className="cat text-body-regular font-Satoshi-Regular btn hover:bg-primary-500 duration-700 text-gray-200 hover:text-white  border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-3 w-max flex gap-2 cursor-pointer">
+                            <div key={index} className="cat text-body-regular font-Satoshi-Regular btn hover:bg-primary-500 duration-700 text-gray-200 hover:text-white  border-[1px] border-solid border-[#72717133] rounded-[32px] py-3 px-2 w-max flex gap-2 cursor-pointer">
                                 {category}
                                 <img className='cat-img duration-700' src={`/assets/sahem.svg`} alt={`${category}`} />
                             </div>

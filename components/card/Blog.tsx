@@ -19,7 +19,7 @@ function Blog({
 }) {
     return (
         <div className='w-full flex flex-col lg:flex-row gap-[52px]'>
-            <img src={image} className='w-full lg:w-[50%]' alt={title} />
+            <img src={image} className='w-full h-[280px] lg:h-[380px] lg:w-[50%]' alt={title} />
             <div className='flex justify-center flex-col gap-5 w-full lg:w-[50%]'>
                 <div className='flex flex-col items-center'>
                     <div className="text-eyebrow lg:text-body-medium font-Satoshi-Medium text-primary-500 w-fit">

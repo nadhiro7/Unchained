@@ -4,8 +4,8 @@ import { processes } from '@/consts/const'
 
 function WorkProcess() {
     return (
-        <section className='flex items-center flex-col container mxWidth process duration-700 transform py-20'>
-            <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
+        <section className='flex items-center flex-col container mxWidth process duration-700 transform gap-12 py-20'>
+            <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16'>
                 <div className="flex items-center flex-col mx-[19px] lg:mx-0  gap-6 ">
                     <div className=" flex  flex-col w-full items-center justify-center">
                         <div className="h-fit">

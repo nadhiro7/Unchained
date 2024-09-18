@@ -34,7 +34,7 @@ function CardCase({ title, category, description, image, index, top }: {
         <div
             ref={cardRef}
             className={`w-full px-2  flex lg:flex-row flex-col justify-between py-5 gap-4 lg:pl-[108px] h-max lg:h-[400px] rounded-[32px] mb-7 items-center card-case  transition-transform duration-700 ease-in-out
-            ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-[100px]'} sticky top${index}`}
+            ${isVisible ? ' opacity-100' : ''} translate-y-[100px] sticky top${index}`}
         >
             <div className='lg:w-[482px]'>
                 <div className='h-fit'>

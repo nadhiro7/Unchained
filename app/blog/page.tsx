@@ -9,8 +9,8 @@ function page() {
     return (
         <div className="text-white  mxWidth overflow-hidden">
             <div className="container mxWidth ">
-                <HeroSection>
-                    <div className="flex items-center flex-col w-[723px] mx-[19px] lg:mx-0  gap-6 ">
+                <HeroSection height='h-[700px]' style={'bg-[top]'}>
+                    <div className="flex items-center flex-col w-full lg:w-[723px] ] mt-[280px] lg:mt-[204px] 2xl:mt-[194px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
                             <div className="overflow-hidden h-fit">
                                 <div className="glassmorphism text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
