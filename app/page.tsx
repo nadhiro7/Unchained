@@ -1,8 +1,6 @@
 'use client'
 import Banner from "@/components/shared/Banner";
 import CaseStudy from "@/components/shared/CaseStudy";
-import Excited from "@/components/shared/Excited";
-import Footer from "@/components/shared/Footer";
 import HeroSection from "@/components/shared/HeroSection";
 import Partner from "@/components/shared/Partner";
 import Partners2 from "@/components/shared/Partners2";
