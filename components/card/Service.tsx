@@ -43,7 +43,7 @@ function Service({ title, description, image, index, top }: {
                     <p className='font-Satoshi-Regular text-body-regular opacity-60'>{description}</p>
                 </div>
             </div>
-            <div className={`h-full w-[360px] ${index % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}>
+            <div className={`h-full max-w-[360px] w-full ${index % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}>
                 <img src={image} alt={title} className='w-full h-full rounded-[24px] object-cover' />
             </div>
         </div>

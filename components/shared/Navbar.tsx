@@ -13,7 +13,7 @@ function Navbar() {
     const pathname = usePathname()
     return (
         <nav className={`w-screen z-10 overflow-hidden transition-all transform duration-1000 text-white navbar pt-4 pb-4 ${showMenu ? 'navbarMobile h-screen flex flex-col justify-between ' : 'h-[80px]'}`}>
-            <div className={`container ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
+            <div className={`container h-full justify-between flex-col flex ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
                 <div className='flex justify-between items-center w-full'>
                     <Link className='logo' href={'/'}>
                         <img src='/assets//logo.svg' alt='logo' className='w-[99px] lg:w-[151px] h-[20px] lg:h-[32px] ' />
@@ -48,7 +48,7 @@ function Navbar() {
                         ))}
                     </ul>
                 </div>
-                <button className={`block lg:hidden btn transition-all duration-500 transform self-center contact-btn-mobile w-[388px] h-[72px] rounded-[44px] px-9 py-6 text-button-large-size font-Satoshi-Medium border-[1px] border-solid border-primary-500 `}>Contact us</button>
+                <button className={`block lg:hidden btn transition-all duration-500 transform self-center contact-btn-mobile w-full h-[72px] rounded-[44px] px-9 py-6 text-button-large-size font-Satoshi-Medium border-[1px] border-solid border-primary-500 `}>Contact us</button>
 
                 <div className='highlight w-[390px] h-[1px] lg:w-[855px]' />
             </div>

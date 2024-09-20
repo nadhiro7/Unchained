@@ -46,8 +46,8 @@ export default function Home() {
               <p className={`${isScroll ? 'translateTopScroll' : ''} duration-[2s] translate-y-full text-center font-Satoshi-Regular text-body-regular opacity-60`}>Whatever your unique idea or needs, we’ve got the tools and know how to build your custom solution from discovery to deployment.</p>
             </div>
             <div className="w-full lg:w-fit  overflow-hidden  flex flex-col lg:flex-row gap-3 items-center justify-center">
-              <button className={`${isScroll ? 'translateRightScroll' : ''} duration-[2s] translate-x-[-101%] btn  shadow-btn transition-all transform  bg-primary-500 w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500`}>Book a meeting</button>
-              <button className={`${isScroll ? 'translateLeftScroll' : ''} duration-[2s] translate-x-[101%] btn  shadow-btn transition-all transform  bg-transparent w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500`}>Learn more</button>
+              <button className={`${isScroll ? 'translateRightScroll' : ''} duration-[3s] translate-x-[-200%] btn  shadow-btn transition-all transform  bg-primary-500 w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500`}>Book a meeting</button>
+              <button className={`${isScroll ? 'translateLeftScroll' : ''} duration-[3s] translate-x-[200%] btn  shadow-btn transition-all transform  bg-transparent w-full md:w-[320px] lg:w-[219px] 2xl:w-[204px]  h-[76px]  rounded-[44px] px-4 py-3 text-button-large-size font-Satoshi-Medium  border-[1px] border-solid border-primary-500 text-primary-500 hover:text-white hover:bg-primary-500`}>Learn more</button>
             </div>
           </div>
           <></>
@@ -55,7 +55,7 @@ export default function Home() {
       </div>
       <Partner />
 
-      <div className="min-h-[243px] relative overflow-hidden max-w-[1728px] w-full mx-auto  shdw">
+      <div className="min-h-[243px] relative overflow-hidden  w-full mx-auto  shdw">
         <Banner rotateLeft={true} />
         <Banner rotateRight={true} />
       </div>

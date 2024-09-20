@@ -24,7 +24,7 @@ function page() {
                         </div>
 
                     </div>
-                    <div className='mxWidthHome relative overflow-hidden flex justify-center items-center flex-col gap-4 '>
+                    <div className='mxWidthHome relative overflow-hidden flex justify-start items-start mx-auto flex-col gap-4 '>
                         <div className='partnerRoot'>
                             <div className='flex flex-col items-center gap-6 mt-6 partners scroll-mobile xs:scroll-desktop'>
                                 <div className='flex gap-10'>
