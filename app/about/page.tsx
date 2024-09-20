@@ -7,8 +7,8 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth overflow-hidden">
-            <div className="container mxWidth cat2">
+        <div className="text-white overflow-hidden">
+            <div className="container mxWidthHome mx-auto cat2 h-[1205px] overflow-hidden">
                 <HeroSection height={'h-max'} style={'bg-[top]'}>
                     <div className="flex items-center flex-col w-full lg:w-[723px] mt-[261px] lg:mt-[269px] xl:mt-[261px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
@@ -27,23 +27,21 @@ function page() {
                         </div>
                     </div>
                 </HeroSection>
-                <div className="h-[440px] lg:h-[380px] xl:h-[440px]  overflow-x-scroll mt-[120px] cat-imgs2">
-                    <div className='flex gap-5 w-full flex-wrap h-[780px] lg:h-[444px] xl:h-[524px] justify-center'>
-                        <img src='/assets/cat5.png' alt='cat5' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat2.png' alt='cat2' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat33.png' alt='cat3' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat3.png' alt='cat3' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat44.png' alt='cat4' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat4.png' alt='cat4' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat5.png' alt='cat5' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
-                        <img src='/assets/cat1.png' alt='cat1' className='w-[45%] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] rounded-[24px]' />
+                <div className=" mt-[107px]">
+                    <div className='flex gap-5 w-full flex-wrap h-max justify-center'>
+                        <img src='/assets/cat5.png' alt='cat5' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat2.png' alt='cat2' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat33.png' alt='cat3' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat3.png' alt='cat3' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat44.png' alt='cat4' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat4.png' alt='cat4' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat5.png' alt='cat5' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
+                        <img src='/assets/cat1.png' alt='cat1' className='w-[180px] h-[180px] lg:w-[212px] lg:h-[212px] xl:w-[252px] xl:h-[252px] object-cover rounded-[24px]' />
                     </div>
                 </div>
             </div>
             <MeetTeam />
             <WhyChooseUs />
-            <Excited />
-            <Footer />
         </div>
     )
 }

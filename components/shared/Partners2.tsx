@@ -1,8 +1,10 @@
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
 function Partners2() {
+    const pathname = usePathname()
     return (
-        <section className='container mxWidth flex flex-col xl:flex-row gap-12 xl:gap-0  justify-between lg:flex-nowrap py-20'>
+        <section className={`${pathname != '/' ? 'mxWidthHome mx-auto' : ''} container mxWidth flex flex-col xl:flex-row gap-12 xl:gap-0  justify-between lg:flex-nowrap py-20`}>
             <div className="flex justify-between flex-col sm:flex-row xl:flex-col lg:mx-0 w-full  xl:w-fit gap-6 ">
                 <div className="w-max flex flex-col justify-center">
                     <div className="h-fit">

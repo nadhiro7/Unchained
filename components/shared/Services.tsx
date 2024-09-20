@@ -4,7 +4,7 @@ import { services } from '@/consts/const';
 
 function Services() {
     return (
-        <div className='flex items-center flex-col py-[120px] container'>
+        <div className='flex items-center flex-col py-[120px] container mxWidthHome mx-auto'>
             <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16'>
                 <div className="flex items-center flex-col  lg:mx-0  gap-6 ">
                     <div className=" flex  flex-col w-full items-center justify-center">

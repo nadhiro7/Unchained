@@ -1,11 +1,10 @@
 import React from 'react'
-import HeroSection from './HeroSection'
 import { categories } from '@/consts/const'
 
 function Wwb() {
     return (
-        <div>
-            <div className='w-full h-max  relative  overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
+        <div className=''>
+            <div className='container h-max  relative  overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
                 <div className='gridDesk absolute top-[-100px]  translate-x-[-50%] left-[50%]  2xl:h-[825px] lg:h-[80%]'>
                 </div>
                 <div className='lg:hidden gridMobile absolute top-[-100px] translate-x-[-50%] left-[50%]   lg:h-[80%]'>
@@ -29,20 +28,20 @@ function Wwb() {
                         {categories.map((category, index) => (
                             <div key={index} className="cat text-body-regular font-Satoshi-Regular btn hover:bg-primary-500 duration-700 text-gray-200 hover:text-white  border-[1px] border-solid border-[#72717133] rounded-[32px] py-3 px-2 w-max flex gap-2 cursor-pointer">
                                 {category}
-                                <img className='cat-img duration-700' src={`/assets/sahem.svg`} alt={`${category}`} />
+                                <img className='cat-img duration-700 object-cover rounded-[24px]' src={`/assets/sahem.svg`} alt={`${category}`} />
                             </div>
 
                         ))}
                     </div>
                 </div>
-                <div className='overflow-x-scroll overflow-hidden relative cat-imgs w-full'>
-                    <div className='flex gap-5 overflow-x-scroll justify-center cat-imgs2'>
-                        <img src='/assets/cat1.png' alt='cat1' className='w-[340px] h-[340px] rounded-[24px]' />
-                        <img src='/assets/cat2.png' alt='cat2' className='w-[340px] h-[340px] rounded-[24px]' />
-                        <img src='/assets/cat3.png' alt='cat3' className='w-[340px] h-[340px] rounded-[24px]' />
-                        <img src='/assets/cat4.png' alt='cat4' className='w-[340px] h-[340px] rounded-[24px]' />
-                        <img src='/assets/cat5.png' alt='cat5' className='w-[340px] h-[340px] rounded-[24px]' />
-                    </div>
+            </div>
+            <div className=' overflow-hidden mx-auto cat-imgs2 relative w-full max-w-[1728px]'>
+                <div className='flex gap-5 overflow-x-scroll w-full cat-imgs '>
+                    <img src='/assets/cat1.png' alt='cat1' className='w-[340px] h-[340px] rounded-[24px]' />
+                    <img src='/assets/cat2.png' alt='cat2' className='w-[340px] h-[340px] rounded-[24px]' />
+                    <img src='/assets/cat3.png' alt='cat3' className='w-[340px] h-[340px] rounded-[24px]' />
+                    <img src='/assets/cat4.png' alt='cat4' className='w-[340px] h-[340px] rounded-[24px]' />
+                    <img src='/assets/cat5.png' alt='cat5' className='w-[340px] h-[340px] rounded-[24px]' />
                 </div>
             </div>
 

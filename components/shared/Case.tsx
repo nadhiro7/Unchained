@@ -3,7 +3,7 @@ import React from 'react'
 
 function Case() {
     return (
-        <section className='container mxWidth py-20 flex flex-col gap-16 '>
+        <section className='container mxWidthHome mx-auto py-20 flex flex-col gap-16 '>
             <img src="/assets/portfolio.png" alt="post" className='w-full h-[280px] lg:h-[572px]  rounded-[40px]' />
             <div className='flex flex-wrap '>
                 <div className='w-full flex gap-8 flex-col mb-8 md:w-[50%]'>
@@ -52,11 +52,11 @@ function Case() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-wrap gap-[2%]'>
-                <img src="/assets/work1.png" alt="work" className='w-full h-[280px] md:h-[400px] mt-[2%] md:w-[49%]  rounded-[40px]' />
-                <img src="/assets/work2.png" alt="work" className='w-full h-[280px] md:h-[400px] mt-[2%] md:w-[49%] rounded-[40px]' />
-                <img src="/assets/work3.png" alt="work" className='w-full h-[280px] md:h-[400px] mt-[2%] md:w-[49%] rounded-[40px]' />
-                <img src="/assets/work4.png" alt="work" className='w-full h-[280px] md:h-[400px] mt-[2%] md:w-[49%] rounded-[40px]' />
+            <div className='flex flex-wrap gap-5'>
+                <img src="/assets/work1.png" alt="work" className='w-full object-cover h-[280px] lg:h-[400px] lg:w-[462px] xl:w-[590px]  rounded-[40px]' />
+                <img src="/assets/work2.png" alt="work" className='w-full object-cover h-[280px] lg:h-[400px] lg:w-[462px] xl:w-[590px] rounded-[40px]' />
+                <img src="/assets/work3.png" alt="work" className='w-full object-cover h-[280px] lg:h-[400px] lg:w-[462px] xl:w-[590px] rounded-[40px]' />
+                <img src="/assets/work4.png" alt="work" className='w-full object-cover h-[280px] lg:h-[400px] lg:w-[462px] xl:w-[590px] rounded-[40px]' />
 
             </div>
         </section>

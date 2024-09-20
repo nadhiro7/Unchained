@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
+import Excited from "@/components/shared/Excited";
+import Footer from "@/components/shared/Footer";
 
 
 export default function RootLayout({
@@ -12,9 +14,11 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <body >
+      <body className="w-full">
         <Navbar />
         {children}
+        <Excited />
+        <Footer />
       </body>
     </html>
   );

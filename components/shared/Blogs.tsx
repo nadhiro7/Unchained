@@ -4,7 +4,7 @@ import { blogs } from '@/consts/const'
 
 function Blogs() {
     return (
-        <section className='container mxWidth flex flex-col items-center gap-14'>
+        <section className='container mxWidthHome mx-auto flex flex-col items-center gap-14'>
             <div>
                 <div className='flex flex-col gap-16'>
                     {blogs.map((blog, index) => (

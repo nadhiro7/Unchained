@@ -12,7 +12,7 @@ function RecentPost() {
                     <div key={index} className="flex gap-4 items-center">
                         <img src={post.image}
                             alt="post"
-                            className="w-[112px] h-[112px] object-cover rounded-lg"
+                            className="w-[112px] h-[112px] object-cover rounded-[16px]"
                         />
                         <div className='w-[244px]'>
                             <h4 className="text-body-bold font-Satoshi-Bold">{post.title}</h4>

@@ -44,7 +44,7 @@ function Service({ title, description, image, index, top }: {
                 </div>
             </div>
             <div className={`h-full w-[360px] ${index % 2 == 0 ? 'lg:order-2' : 'lg:order-1'}`}>
-                <img src={image} alt={title} className='w-full h-full rounded-[24px]' />
+                <img src={image} alt={title} className='w-full h-full rounded-[24px] object-cover' />
             </div>
         </div>
     )

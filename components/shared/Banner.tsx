@@ -3,7 +3,7 @@ import React from 'react'
 
 function Banner({ rotateLeft = false, rotateRight = false }) {
     return (
-        <div className={`absolute w-full justify-center top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-primary-500 flex banner overflow-hidden py-6 px-5 ${rotateLeft ? 'rotate-[5deg]' : ''} ${rotateRight ? 'rotate-[-5deg]' : ''}`}>
+        <div className={`absolute w-full  top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-primary-500 flex banner overflow-hidden py-6 px-5 ${rotateLeft ? 'rotate-[5deg] justify-center' : ''} ${rotateRight ? 'rotate-[-5deg] justify-center' : ''} justify-end`}>
             <div className={`flex gap-5  ${rotateLeft ? 'scroll3' : 'scroll2'}`}>
                 {categories.map((category, index) => (
                     <p key={index} className='w-max relative text-h4 font-Satoshi-Bold overflow-hidden items-center text-nowrap  flex gap-5'>

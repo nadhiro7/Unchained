@@ -33,7 +33,7 @@ function CardCase({ title, category, description, image, index, top }: {
     return (
         <div
             ref={cardRef}
-            className={`w-full px-2  flex lg:flex-row flex-col justify-between py-5 gap-4 lg:pl-[108px] h-max lg:h-[400px] rounded-[32px] mb-7 items-center card-case  transition-transform duration-700 ease-in-out
+            className={`w-full  flex lg:flex-row flex-col justify-between p-5 gap-4 lg:pl-[108px] h-max lg:h-[400px] rounded-[32px] mb-7 items-center card-case  transition-transform duration-700 ease-in-out
             ${isVisible ? ' opacity-100' : ''} translate-y-[100px] sticky top${index}`}
         >
             <div className='lg:w-[482px]'>
@@ -49,8 +49,8 @@ function CardCase({ title, category, description, image, index, top }: {
                     <p className='font-Satoshi-Regular text-body-regular opacity-60'>{description}</p>
                 </div>
             </div>
-            <div className='h-full w-[360px]'>
-                <img src={image} alt={title} className='w-full h-full rounded-[24px]' />
+            <div className='h-[360px] w-full lg:w-[360px]'>
+                <img src={image} alt={title} className='w-full h-full object-cover rounded-[24px]' />
             </div>
         </div>
     )

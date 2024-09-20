@@ -96,22 +96,22 @@ export const team = [
     {
         name: 'David Snow',
         role: 'Sr. UI/UX Designer',
-        image: '/assets/person1.png'
+        image: '/assets/p1.png'
     },
     {
         name: 'James Din',
         role: 'Sr. Frontend Developer',
-        image: '/assets/person2.png'
+        image: '/assets/p2.png'
     },
     {
         name: 'Sarah Jones',
         role: 'Sr. Frontend Developer',
-        image: '/assets/person3.png'
+        image: '/assets/p3.png'
     },
     {
         name: 'John Din',
         role: 'Sr. Frontend Developer',
-        image: '/assets/person4.png'
+        image: '/assets/p4.png'
     },
 ]
 

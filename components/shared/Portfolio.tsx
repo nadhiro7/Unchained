@@ -4,7 +4,7 @@ import PortfolioCard from '../card/PortfolioCard'
 
 function Portfolio() {
     return (
-        <section className='mxWidth container py-[120px]'>
+        <section className='mxWidthHome mx-auto container py-[120px]'>
             <div className='flex flex-wrap gap-5 justify-between'>
                 {portfolios.map((portfolio, index) => (
                     <PortfolioCard

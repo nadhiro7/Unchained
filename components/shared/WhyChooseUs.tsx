@@ -3,7 +3,7 @@ import React from 'react'
 
 function WhyChooseUs() {
     return (
-        <section className='container relative mxWidth flex-col flex justify-center items-center gap-12 py-[120px]'>
+        <section className='container relative mxWidthHome mx-auto flex-col flex justify-center items-center gap-12 py-[120px]'>
             <div className='gridDesk absolute top-[50%] bg-[center] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>
             </div>
 

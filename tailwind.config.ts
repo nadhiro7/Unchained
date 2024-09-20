@@ -11,7 +11,7 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: false,
+      center: true,
       padding: {
         DEFAULT: '20px',
         lg: '40px',

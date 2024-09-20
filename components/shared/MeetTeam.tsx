@@ -4,7 +4,7 @@ import { team } from '@/consts/const'
 
 function MeetTeam() {
     return (
-        <section className='container mxWidth pt-[120px] pb-[40px] flex-col flex justify-center items-center gap-16'>
+        <section className='container mxWidthHome mx-auto pt-[120px] pb-[40px] flex-col flex justify-center items-center gap-16'>
             <div className="flex items-center flex-col mx-[19px] w-full lg:w-[723px] lg:mx-0  gap-6 ">
                 <div className=" flex  flex-col w-full items-center justify-center" >
                     <div className="overflow-hidden h-fit">

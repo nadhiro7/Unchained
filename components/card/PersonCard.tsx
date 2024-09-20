@@ -11,7 +11,7 @@ function PersonCard({
 }) {
     return (
         <div className='w-[284px] h-[420px] sm:w-[300px] lg:basis-[25%]  relative person-card'>
-            <img src={image} alt={name} className="w-[284px] sm:w-full lg:w-full rounded-[44px] h-[340px]" />
+            <img src={image} alt={name} className="w-[284px] sm:w-full lg:w-full object-cover rounded-[44px] h-[340px]" />
             <div className="flex items-center flex-col gap-6 absolute person-det">
                 <div className=" flex  flex-col w-full items-center justify-center" >
                     <div className="overflow-hidden h-fit text-h4 font-Satoshi-Bold uppercase text-center"> {name}</div>

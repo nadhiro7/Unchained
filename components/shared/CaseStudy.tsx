@@ -4,7 +4,7 @@ import CardCase from '../card/CardCase'
 
 function CaseStudy() {
     return (
-        <section className='mxWidth container py-[120px]'>
+        <section className='container py-[120px]'>
             <div className='flex items-center flex-col'>
                 <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16 '>
                     <div className="flex items-center flex-col lg:mx-0  gap-6 ">

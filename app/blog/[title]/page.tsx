@@ -1,13 +1,11 @@
-import Excited from '@/components/shared/Excited'
-import Footer from '@/components/shared/Footer'
 import HeroSection from '@/components/shared/HeroSection'
 import Post from '@/components/shared/Post'
 import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth overflow-hidden">
-            <div className="container mxWidth ">
+        <div className="text-white mxWidthHome mx-auto overflow-hidden">
+            <div className="container ">
                 <HeroSection height={'h-[700px]'} style={''}>
                     <div className="flex items-center flex-col w-full lg:w-[923px] ] mt-[192px] lg:mt-[228px]  lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
@@ -22,8 +20,6 @@ function page() {
                 </HeroSection>
             </div>
             <Post />
-            <Excited />
-            <Footer />
         </div>
     )
 }

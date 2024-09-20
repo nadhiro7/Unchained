@@ -30,9 +30,9 @@ export default function Home() {
     };
   }, []);
   return (
-    <div className="text-white  mxWidth" ref={homeRef}>
-      <div className="container mxWidth overflow-hidden">
-        <HeroSection height={"h-screen"} style={"bg-[center]"}>
+    <main className="text-white  " ref={homeRef}>
+      <div className="overflow-hidden container ">
+        <HeroSection height={"h-[1024px]"} style={"bg-[center]"}>
           <div className="flex items-center flex-col lg:w-[723px] ] mt-[246px] lg:mt-[356px] 2xl:mt-[360px] lg:mx-0  gap-6 ">
             <div className=" flex  flex-col w-full items-center justify-center" >
               <div className="overflow-hidden h-fit">
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
       <Partner />
 
-      <div className="h-[243px] relative overflow-hidden shdw">
+      <div className="min-h-[243px] relative overflow-hidden max-w-[1728px] w-full mx-auto  shdw">
         <Banner rotateLeft={true} />
         <Banner rotateRight={true} />
       </div>
@@ -65,8 +65,6 @@ export default function Home() {
       <CaseStudy />
       <WorkProcess />
       <Partners2 />
-      <Excited />
-      <Footer />
-    </div>
+    </main>
   );
 }

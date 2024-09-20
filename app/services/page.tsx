@@ -1,19 +1,14 @@
 import Banner from '@/components/shared/Banner'
 import Excited from '@/components/shared/Excited'
 import Footer from '@/components/shared/Footer'
-import HeroSection from '@/components/shared/HeroSection'
-import MeetTeam from '@/components/shared/MeetTeam'
-import Partner from '@/components/shared/Partner'
-import Portfolio from '@/components/shared/Portfolio'
 import Services from '@/components/shared/Services'
-import WhyChooseUs from '@/components/shared/WhyChooseUs'
 import { categories } from '@/consts/const'
 import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth">
-            <div className="container mxWidth overflow-hidden ">
+        <div className="text-white">
+            <div className="container overflow-hidden mxWidthHome mx-auto">
                 <div className={`w-full hero relative overflow-hidden flex h-[700px] flex-col items-center justify-between`}>
                     <div className='gridDesk absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>
                     </div>
@@ -43,12 +38,10 @@ function page() {
                     </div>
                 </div>
             </div>
-            <div className='relative overflow-hidden flex justify-center items-center w-screen flex-col gap-4 py-10 shdw2'>
+            <div className='relative overflow-hidden flex justify-center items-center flex-col gap-4 py-10 shdw2'>
                 <Banner />
             </div>
             <Services />
-            <Excited />
-            <Footer />
         </div>
     )
 }

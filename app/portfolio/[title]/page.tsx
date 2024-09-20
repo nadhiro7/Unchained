@@ -14,8 +14,8 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth overflow-hidden">
-            <div className="container mxWidth ">
+        <div className="text-white  overflow-hidden">
+            <div className="container mxWidthHome mx-auto">
                 <HeroSection height={'h-[700px]'} style={''}>
                     <div className="flex items-center flex-col w-full lg:w-[723px] ] mt-[256px] lg:mt-[256px] 2xl:mt-[260px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
@@ -37,8 +37,6 @@ function page() {
             </div>
             <Case />
             <WorkProcess />
-            <Excited />
-            <Footer />
         </div>
     )
 }

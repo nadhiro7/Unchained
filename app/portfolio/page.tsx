@@ -1,18 +1,16 @@
 import Excited from '@/components/shared/Excited'
 import Footer from '@/components/shared/Footer'
 import HeroSection from '@/components/shared/HeroSection'
-import MeetTeam from '@/components/shared/MeetTeam'
-import Partner from '@/components/shared/Partner'
+
 import Portfolio from '@/components/shared/Portfolio'
-import WhyChooseUs from '@/components/shared/WhyChooseUs'
 import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  mxWidth overflow-hidden">
-            <div className=" mxWidth ">
-                <HeroSection height={'h-screen'} style={'bg-[center]'} >
-                    <div className="flex items-center flex-col w-full lg:w-[789px] mt-[304px] lg:mt-[328px] xl:mt-[326px] lg:mx-0  gap-6 ">
+        <div className="text-white overflow-hidden ">
+            <div className="  mx-auto h-[900px]">
+                <HeroSection height={'h-full '} style={'bg-[center]'} >
+                    <div className="flex container items-center flex-col w-full lg:w-[789px] mt-[304px] lg:mt-[328px] xl:mt-[326px] lg:mx-0  gap-6 ">
                         <div className=" flex  flex-col w-full items-center justify-center" >
                             <div className="overflow-hidden h-fit">
                                 <div className="glassmorphism text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
@@ -26,7 +24,7 @@ function page() {
                         </div>
 
                     </div>
-                    <div className='relative overflow-hidden flex justify-center items-center flex-col gap-4 w-screen'>
+                    <div className='mxWidthHome relative overflow-hidden flex justify-center items-center flex-col gap-4 '>
                         <div className='partnerRoot'>
                             <div className='flex flex-col items-center gap-6 mt-6 partners scroll-mobile xs:scroll-desktop'>
                                 <div className='flex gap-10'>
@@ -66,8 +64,6 @@ function page() {
 
             </div>
             <Portfolio />
-            <Excited />
-            <Footer />
         </div>
     )
 }

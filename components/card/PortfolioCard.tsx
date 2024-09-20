@@ -8,7 +8,7 @@ function PortfolioCard(
 ) {
     return (
         <div className='portfolio-card flex p-5 gap-5 rounded-[32px] flex-col w-full  lg:w-[460px] xl:w-[590px] border-[1px] border-solid border-[#72717133] glassmorphism'>
-            <img src={imgSrc} alt={imgAlt} className='rounded-[32px] h-[340px]' />
+            <img src={imgSrc} alt={imgAlt} className='rounded-[32px] object-cover h-[340px]' />
             <div className='flex flex-col gap-3'>
                 <div className='flex justify-between'>
                     <h3 className='text-white text-h4 font-Satoshi-Bold'>{title}</h3>
