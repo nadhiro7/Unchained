@@ -71,7 +71,10 @@ background: #F46630;
   z-index: -1;
 }
 .mxWidthHome{
-  @apply xl:max-w-[1440px]
+  @apply xl:max-w-[1440px] min-w-[428px]
+}
+.minWidth{
+  @apply min-w-[428px]
 }
 .glassmorphism{
   background: radial-gradient(109.66% 100% at 50% 0%, rgba(255, 255, 255, 0.1) 0%, rgba(30, 40, 51, 0.1) 100%);

@@ -4,7 +4,7 @@ import { categories } from '@/consts/const'
 function Wwb() {
     return (
         <div className=''>
-            <div className='container h-max  relative  overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
+            <div className='container minWidth h-max  relative  overflow-hidden flex flex-col justify-center items-center gap-16 py-[120px]'>
                 <div className='gridDesk absolute top-[-100px]  translate-x-[-50%] left-[50%]  2xl:h-[825px] lg:h-[80%]'>
                 </div>
                 <div className='lg:hidden gridMobile absolute top-[-100px] translate-x-[-50%] left-[50%]   lg:h-[80%]'>

@@ -5,7 +5,7 @@ import React from 'react'
 function Excited() {
     const pathname = usePathname()
     return (
-        <section className={`container text-white py-20 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
+        <section className={`container minWidth text-white py-20 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
             <div>
                 <div className="flex flex-col border-[#72717133] border-[1px] border-solid lg:flex-row lg:justify-between w-full 2xl:w-[1200px] overflow-hidden hover:h-max duration-700 transform lg:mx-0 p-6 rounded-[32px] gap-3 glassmorphism">
                     <button className="text-body-medium btn duration-700 lg:order-2 border-[#FFFFFF33] flex  items-center justify-center font-Satoshi-Medium h-[88px] w-[88px] text-white border-[1px] border-solid rounded-[44px] py-2 px-4 bg-primary-500">

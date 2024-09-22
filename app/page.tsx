@@ -28,8 +28,8 @@ export default function Home() {
     };
   }, []);
   return (
-    <main className="text-white  " ref={homeRef}>
-      <div className="overflow-hidden container ">
+    <main className="text-white  minWidth" ref={homeRef}>
+      <div className="overflow-hidden container minWidth">
         <HeroSection height={"h-[1024px]"} style={"bg-[center]"}>
           <div className="flex items-center flex-col lg:w-[723px] ] mt-[246px] lg:mt-[356px] 2xl:mt-[360px] lg:mx-0  gap-6 ">
             <div className=" flex  flex-col w-full items-center justify-center" >
@@ -55,7 +55,7 @@ export default function Home() {
       </div>
       <Partner />
 
-      <div className="min-h-[243px] relative overflow-hidden  w-full mx-auto  shdw">
+      <div className="min-h-[243px] relative overflow-hidden minWidth  w-full mx-auto  shdw">
         <Banner rotateLeft={true} />
         <Banner rotateRight={true} />
       </div>

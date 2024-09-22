@@ -7,7 +7,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white overflow-hidden ">
+        <div className="text-white minWidth ">
             <div className="  mx-auto h-[900px]">
                 <HeroSection height={'h-full '} style={'bg-[center]'} >
                     <div className="flex container items-center flex-col w-full lg:w-[789px] mt-[304px] lg:mt-[328px] xl:mt-[326px] lg:mx-0  gap-6 ">

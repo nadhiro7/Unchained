@@ -7,7 +7,7 @@ import React from 'react'
 function Footer() {
     const pathname = usePathname()
     return (
-        <footer className={`container text-white py-12 flex flex-col gap-6 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
+        <footer className={`container minWidth text-white py-12 flex flex-col gap-6 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
             <div className='flex sm:justify-between justify-center flex-col sm:flex-row gap-8 px-5 sm:px-0 items-center w-full'>
                 <Link className='logo' href={'/'}>
                     <img src='/assets//logo.svg' alt='logo' className='w-[99px] lg:w-[151px] h-[20px] lg:h-[32px] ' />

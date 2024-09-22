@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 function WorkProcess() {
     const pathname = usePathname()
     return (
-        <section className={`flex items-center flex-col container  process duration-700 transform gap-12 py-20 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
+        <section className={`flex minWidth items-center flex-col container  process duration-700 transform gap-12 py-20 ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
             <div className='w-full h-max  relative overflow-hidden flex flex-col justify-center items-center gap-16'>
                 <div className="flex items-center flex-col mx-[19px] lg:mx-0  gap-6 ">
                     <div className=" flex  flex-col w-full items-center justify-center">

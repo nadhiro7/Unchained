@@ -2,7 +2,7 @@ import React from 'react'
 
 function Partner() {
     return (
-        <div className=' mxWidthHome mx-auto relative overflow-hidden flex justify-center items-center flex-col gap-4 py-10'>
+        <div className=' mxWidthHome minWidth mx-auto relative overflow-hidden flex justify-center items-center flex-col gap-4 py-10'>
             <div className='flex flex-col items-center'>
                 <div className="glassmorphism  text-eyebrow font-Satoshi-Medium text-primary-500 border-[1px] border-solid border-[#72717133] rounded-[32px] py-2 px-4 w-fit">
                     Our partners

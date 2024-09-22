@@ -14,7 +14,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white  overflow-hidden">
+        <div className="text-white  minWidth">
             <div className="container mxWidthHome mx-auto">
                 <HeroSection height={'h-[700px]'} style={''}>
                     <div className="flex items-center flex-col w-full lg:w-[723px] ] mt-[256px] lg:mt-[256px] 2xl:mt-[260px] lg:mx-0  gap-6 ">

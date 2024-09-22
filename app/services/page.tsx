@@ -7,7 +7,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className="text-white">
+        <div className="text-white minWidth">
             <div className="container overflow-hidden mxWidthHome mx-auto">
                 <div className={`w-full hero relative overflow-hidden flex h-[700px] flex-col items-center justify-between`}>
                     <div className='gridDesk absolute top-[50%] translate-x-[-50%] left-[50%] translate-y-[-50%] 2xl:h-[825px] lg:h-[80%]'>

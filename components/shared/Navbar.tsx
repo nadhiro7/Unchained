@@ -12,7 +12,7 @@ function Navbar() {
     }
     const pathname = usePathname()
     return (
-        <nav className={`w-screen z-10 overflow-hidden transition-all transform duration-1000 text-white navbar pt-4 pb-4 ${showMenu ? 'navbarMobile h-screen flex flex-col justify-between ' : 'h-[80px]'}`}>
+        <nav className={`w-screen minWidth z-10 overflow-hidden transition-all transform duration-1000 text-white navbar pt-4 pb-4 ${showMenu ? 'navbarMobile h-screen flex flex-col justify-between ' : 'h-[80px]'}`}>
             <div className={`container h-full justify-between flex-col flex ${pathname != '/' ? 'mxWidthHome mx-auto' : ''}`}>
                 <div className='flex justify-between items-center w-full'>
                     <Link className='logo' href={'/'}>
